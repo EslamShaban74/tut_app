@@ -51,12 +51,12 @@ ThemeData getApplicationTheme() {
     textTheme: TextTheme(
         displayLarge:
             getLightStyle(color: ColorManager.white, fontSize: FontSize.s22.sp),
-        headline1: getSemiBoldStyle(
+        headlineLarge: getSemiBoldStyle(
             color: ColorManager.darkGrey, fontSize: FontSize.s16.sp),
-        subtitle1: getMediumStyle(
+        titleMedium: getMediumStyle(
             color: ColorManager.lightGrey, fontSize: FontSize.s14.sp),
-        caption: getRegularStyle(color: ColorManager.grey1),
-        bodyText1: getRegularStyle(color: ColorManager.grey)),
+        bodyLarge: getRegularStyle(color: ColorManager.grey1),
+        bodySmall: getRegularStyle(color: ColorManager.grey)),
 
     /// input decoration theme
     inputDecorationTheme: InputDecorationTheme(
